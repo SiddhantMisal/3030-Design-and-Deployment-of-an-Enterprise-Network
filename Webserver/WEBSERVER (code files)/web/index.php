@@ -1,0 +1,131 @@
+<?php
+session_start();
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+  header("location: login.php");
+}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Photography</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css -->
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" href="favicon (2).ico">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- font awsome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- font family -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family='Tangerine', serif">
+</head>
+
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand " href="#">✦ photography</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto">
+            <div class="navbar-collapse collapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"> <img src="https://img.icons8.com/metro/26/000000/guest-male.png">
+                    <?php echo "Welcome " . $_SESSION['username'] ?>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="btn-default btn-secondary nav-link dropdown-toggel" style="color:rgb(230, 217, 217)" href="#"
+                role="Button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="animal1.html">Animals</a></li>
+                <li><a class="dropdown-item" href="birds1.html">Birds</a></li>
+                <li><a class="dropdown-item" href="Flowers1.html">Flowers</a></li>
+                <li><a class="dropdown-item" href="nature1.html">Nature</a></li>
+                <li><a class="dropdown-item" href="sunrise ,Sunset1.html">Sunrise & Sunset</a></li>
+                <li><a class="dropdown-item" href="personalshot.html">Creativity</a></li>
+
+              </ul>
+            </li>
+            <a class="nav-link active" style="color:gray" aria-current="page" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+            <a class="btn" style="color: gray;" href="mailto:joshishreya10011@gmail.com">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active " style="color:gray" aria-current="page" href="logout.php">logout</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+
+    <section id="title">
+      <div class="first">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <h1 class="heading"><em><b>Photography </em><br><em> World</em></h1></b></em></h1>
+            <img class="pic0" src="Images/home1.jpg" alt="photo">
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="text">❛❛<br> My camera is a<br><em>sketchbook<em></h3>
+            <img class="pic4" src="Images/home2.jpg" alt="">
+            <p class="img-text1">STAY TUNED FOR NEWS<br> AND NEW WORK ON<br> INSTAGRAM</p>
+            <img class="pic3" src="Images/home3.jpg" alt="">
+          </div>
+
+        </div>
+      </div>
+
+      </div>
+
+      <div class="bottom">
+        <div class="row">
+          <div class="col-md-4">
+            <p class="bottom-text">-LET'S TAKE YOUR<br> PHOTOGRAPHS TO NEXT LEVEL</p>
+          </div>
+          <div class="col-md-4 icon">
+            <i href="#" class="social fa-brands fa-facebook-f"></i>
+            <i href="#" class="social fa-brands fa-instagram"></i>
+            <i href="#" class="social fa-brands fa-twitter"></i>
+            <i href="#" class="social fa-regular fa-envelope"></i>
+            <p class="copyright">© Copyright </p>
+          </div>
+
+          <div class="col-md-4">
+            <p class="bottom-text2">-PHOTOGRAPHY <br>is an<br> ART</p>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+</body>
+
+</html>

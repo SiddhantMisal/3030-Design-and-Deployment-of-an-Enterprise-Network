@@ -1,0 +1,108 @@
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+overflow-x:hidden;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+/* background: beige; */
+}
+#title{
+    background-color:  #FFEFD6;
+       color: #6cb5c2;
+   }
+  .navbar{
+   /* padding: 500px; */
+   display: flex;
+   justify-content: space-between;
+  }
+  /* .navbar-brand{
+    
+  } */
+  .nav-item{ 
+   /* font-weight: 500; */
+   /* font-size: large; */
+   
+   padding: 0px 30px;
+  }
+  .nav-link{
+   color: rgb(205, 183, 183);
+  }
+  .btn-default{
+   background-color: transparent;
+  }
+.section-container
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.section-container .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.section-container .columns.content .content-container
+{
+padding:40px 50px;
+}
+/* Remove later */
+/* h5:hover{
+    color: black;
+    background-color: coral;
+    transition: 0.4s ease;
+} */
+p:hover{
+    color: black;
+    background-color: rgba(148, 199, 55, 0.169);
+    transition: 0.4s ease;
+}
+h5{
+    border-bottom: .2rem solid black;
+}
+/* remove later  */
+.section-container .columns.content .content-container h5
+{
+font-weight:700;
+font-size:25px;
+margin-bottom:20px;
+}
+.section-container .columns.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+ 
+ 
+    ul.pagination {
+      display: inline-block;
+      padding: 0;
+      margin: 30px  50px;
+     
+  }
+  ul.pagination li {display: inline;}
+  ul.pagination li a {
+      color: black;
+      /* float: left; */
+      padding: 8px 16px;
+      text-decoration: none;
+      text-align: center;
+  }
+  ul.pagination li a.active {
+      background-color: lightslategray;
+      color: white;
+  }
+  ul.pagination li a:hover:not(.active) {background-color: lightsalmon;}   

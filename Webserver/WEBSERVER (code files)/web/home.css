@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+  
+    font-family: 'Tangerine', serif;
+    }
+/* <!---------------------navbar-------------------!> */
+#title{
+     background-color:  #FFEFD6;
+        color: #6cb5c2;
+    }
+.navbar{
+    /* padding: 500px; */
+    display: flex;
+    justify-content: space-between;
+}
+/* .navbar-brand{
+     
+} */
+.nav-item{ 
+    /* font-weight: 500; */
+    /* font-size: large; */
+    
+    padding: 0px 30px;
+}
+.nav-link{
+    color: rgb(205, 183, 183);
+}
+.btn-default{
+    background-color: transparent;
+}
+
+/* <---------------------containers---------------------> */
+.first{
+    background-color:   #FFEFD6;
+    height: 30rem;
+
+}
+
+.pic0{
+    /* padding: 25px 0px 0px 10px; */
+    width: 50%;
+    border-radius: 50% 50% 0% 0%;
+    position:absolute;
+    left: 350px;
+    
+     
+}
+.pic4{
+        width: 20%;
+        position: absolute;
+        left: 480px;
+        top: 100px;
+}
+.pic3{
+       width: 20%;
+       position: absolute;
+       top: 300px;
+       left: 250px;
+}
+.text
+{
+    color: rgb(86, 71, 71);
+    font-family: 'Tangerine', serif;
+    position: absolute;
+    left: 300px;
+    font-weight: 600;
+}
+.heading{
+    color: rgb(75, 56, 56);
+    position:absolute;
+    top:150px;
+    left: 100px;
+    font-family: 'Tangerine', serif;
+}
+ .icon {
+     padding:3% 100%; 
+     text-align: center;
+     color: #FFEFD6;
+      
+}
+.social{
+    margin:10px 10px;
+    padding-bottom:15px ;
+}
+.copyright{
+    color:rgb(122, 120, 119);
+}
+.container-fluid{
+    padding: 2% 20%;
+}
+/* .col-md-2{
+    position: relative;
+} */
+ /* <!---------------------bottom-------------------!> */
+ .bottom{
+    background-color: #021f24;
+    height: 10rem;
+}
+.bottom-text{
+    padding: 30px 100px;
+     color: rgb(137, 137, 45);
+     font-size: 20px;
+     font-weight:600;
+     font-family: 'Times New Roman', serif;
+
+}
+.bottom-text2{
+    padding: 30px 100px;
+    color: rgb(137, 137, 45);
+     font-size: 20px;
+     font-weight:600;
+     text-align: center;
+     font-family: 'Tangerine', serif;
+}
+.img-text1{
+    position: absolute;
+    left: 210px;
+    top: 200px;
+    color: rgb(158, 98, 21);
+    font-family: 'Tangerine', serif;
+}

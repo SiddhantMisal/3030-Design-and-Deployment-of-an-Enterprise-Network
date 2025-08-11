@@ -1,0 +1,8 @@
+[sshd]
+	Backend = systemd
+	Enabled = true
+	Port = 22
+	Filter = sshd
+	Maxretry = 3
+	Bantime = 240
+	Findtime = 600

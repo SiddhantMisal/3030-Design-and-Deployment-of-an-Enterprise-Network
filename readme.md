@@ -51,5 +51,4 @@ The setup includes **isolated VLANs** for WAN, LAN (Internal), and DMZ, along wi
 - Real-time network and service monitoring with Nagios
 - Enhanced security with fail2ban
 
-
-
+#............

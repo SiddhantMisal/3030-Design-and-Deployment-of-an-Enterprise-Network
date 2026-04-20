@@ -7,6 +7,7 @@ The setup includes **isolated VLANs** for WAN, LAN (Internal), and DMZ, along wi
 ##  Network Design
 
 ### Workflow  Diagram
+
 ![Logical Network Diagram](Docs/Project Workflow .jpg)
 
 ### VLAN table  Diagram
